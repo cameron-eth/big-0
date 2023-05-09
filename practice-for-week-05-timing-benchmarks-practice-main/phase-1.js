@@ -1,6 +1,10 @@
 // Adds up positive integers from 1-n
 function addNums(n) {
-  // Fill this in
+  let add = 0
+  for(let i = 1; i <= n; i++){
+    add += 1
+  }
+  return add
 
 }
 
