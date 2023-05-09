@@ -2,7 +2,7 @@
 function addNums(n) {
   let add = 0
   for(let i = 1; i <= n; i++){
-    add += 1
+    add += i
   }
   return add
 
@@ -11,8 +11,11 @@ function addNums(n) {
 
 // Adds up values of addNums(1) through addNums(n)
 function addManyNums(n) {
-  // Fill this in
-
+    let add = 0;
+    for(let i = 1; i <= n; i++){
+      add += addNums(i)
+    }
+    return add
 }
 
 
